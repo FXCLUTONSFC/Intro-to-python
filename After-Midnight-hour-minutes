@@ -1,0 +1,13 @@
+# Given the integer N - the number of seconds that is passed since midnight - how many full hours and full minutes are passed since midnight?
+# Read an integer:
+# a = int(input())
+# Print a value:
+# print(a)
+import datetime
+
+time = datetime.datetime.now()
+hr = (time.strftime("%H"))
+minutes = (time.strftime("%M")) 
+print(time)
+print(hr)
+print(minutes)
